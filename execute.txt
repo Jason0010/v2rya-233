@@ -1,5 +1,10 @@
+使用 root 用户输入下面命令安装或卸载：
 bash <(curl -s -L https://raw.githubusercontent.com/Jason0010/v2rya-233/master/install.sh)
 
+安装或卸载
+要求：Ubuntu 14+ / Debian 7+ / CentOS 7+ 系统的小鸡鸡
+推荐使用 Debian 9 系统，脚本会自动启用 BBR 优化。
+备注：不推荐使用 Debian 8 系统，因为 Caddy 申请证书可能会出现一些莫名其妙的问题
 
 如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl
 ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install curl -y
