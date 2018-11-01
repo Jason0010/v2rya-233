@@ -1,0 +1,1 @@
+bash <(curl -s -L https://raw.githubusercontent.com/Jason0010/v2rya-233/master/install.sh)
